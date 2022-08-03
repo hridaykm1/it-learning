@@ -1,0 +1,33 @@
+/* slider Start */
+.carousel-item {
+    height: 80vh;
+    min-height: 300px;
+    background: no-repeat scroll center scroll;
+    background-size: cover;
+}
+
+.carousel-item::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: o;
+    right: 0;
+    background-color: #000000;
+    opacity: 1.0;
+}
+
+.carousel-caption {
+    margin-bottom: 120px;
+    padding-left: 100px;
+    padding-right: 100px;
+    z-index: 2;
+}
+
+.carousel-caption h1 {
+    font-size: 65px;
+    font-weight: 700;
+}
+
+/* Slider End */
