@@ -20,7 +20,18 @@
     opacity: 0.75;
 }
 
+
 /* Slider End */
+
+.fa-star {
+    font-size: 20px;
+}
+
+.fa-star.filled {
+    color: #FFC014;
+}
+
+
 
 /*-------------------------------- 
       Responsive The Website 
